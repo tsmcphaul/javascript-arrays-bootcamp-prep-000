@@ -26,4 +26,13 @@ function accessElementInArray(chocolateBars, index){
   return chocolateBars[index];
 }
 
-function destructivelyAddElementToEndOfArray
+function destructivelyRemoveElementToBeginningOfArray(chocolateBars, index){
+  chocolateBars.shift();
+  return chocolateBars;
+}
+
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars = chocolateBars.slice(1);
+  return chocolateBars;
+}
+
