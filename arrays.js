@@ -4,4 +4,10 @@ var chocolateBars = [
   "kitkat",
   "skittles"];
   
+  addElementToBeginningOfArray(){
+    [""]
+  }
   
+  destructivelyAddElementToBeginningOfArray(){
+    
+  }
